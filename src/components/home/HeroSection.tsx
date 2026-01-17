@@ -64,7 +64,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="absolute bottom-8 right-8 text-sm text-muted-foreground italic hidden md:block"
         >
-          Innovating with Technology – Reliable, Adaptable, Customer-Centric
+          
         </motion.p>
       </div>
     </section>

@@ -62,7 +62,7 @@ const About = () => {
                 className="grid grid-cols-2 gap-4"
               >
                 <div className="bg-primary/5 rounded-2xl p-8 text-center">
-                  <span className="text-4xl font-bold text-primary">50+</span>
+                  <span className="text-4xl font-bold text-primary">15+</span>
                   <p className="mt-2 text-sm text-muted-foreground">Projects Delivered</p>
                 </div>
                 <div className="bg-accent/5 rounded-2xl p-8 text-center">
@@ -70,7 +70,7 @@ const About = () => {
                   <p className="mt-2 text-sm text-muted-foreground">Client Satisfaction</p>
                 </div>
                 <div className="bg-secondary/10 rounded-2xl p-8 text-center">
-                  <span className="text-4xl font-bold text-secondary">10+</span>
+                  <span className="text-4xl font-bold text-secondary">2+</span>
                   <p className="mt-2 text-sm text-muted-foreground">Years Experience</p>
                 </div>
                 <div className="bg-primary/5 rounded-2xl p-8 text-center">

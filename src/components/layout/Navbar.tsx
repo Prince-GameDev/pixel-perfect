@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/iterac_logo.svg";
+
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -40,10 +42,12 @@ const Navbar = () => {
       <nav className="section-container">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <span className="font-heading text-2xl font-bold text-primary">
-              ITERAC
-            </span>
+          <Link to="/" className="flex items-center h-full">
+          <img
+              src={logo}
+              alt="ITERAC Logo"
+              className="h-8 md:h-10 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

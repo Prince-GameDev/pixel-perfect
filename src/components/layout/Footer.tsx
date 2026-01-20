@@ -76,7 +76,7 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin size={18} className="text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-secondary-foreground/70">
-                  Technology Hub, Innovation District
+                  IT Business Hub<br />
                   Noida, 201301
                 </span>
               </li>
@@ -92,7 +92,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-6">
               <Link
-                to="#"
+                to="https://www.termsfeed.com/live/7ea68b72-f14d-4b14-9c2d-2eebbafda237"
                 className="text-secondary-foreground/60 hover:text-accent text-sm transition-colors"
               >
                 Privacy Policy

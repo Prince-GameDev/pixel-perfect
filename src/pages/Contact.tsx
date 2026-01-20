@@ -287,7 +287,7 @@ const Contact = () => {
                         Location
                       </h3>
                       <p className="text-muted-foreground">
-                        Technology Hub, Innovation District
+                        IT Business Hub
                         <br />
                         Noida, 201301
                       </p>

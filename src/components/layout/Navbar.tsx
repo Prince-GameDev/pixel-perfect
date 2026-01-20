@@ -46,7 +46,7 @@ const Navbar = () => {
           <img
               src={logo}
               alt="ITERAC Logo"
-              className="h-8 md:h-10 w-auto object-contain"
+              className="h-11 md:h-14 w-auto object-contain"
             />
           </Link>
 

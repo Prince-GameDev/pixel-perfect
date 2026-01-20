@@ -70,13 +70,14 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-sm">
                 <Phone size={18} className="text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-secondary-foreground/70">
-                  +1 (555) 123-4567
+                  +91 (98114) 28989
                 </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <MapPin size={18} className="text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-secondary-foreground/70">
                   Technology Hub, Innovation District
+                  Noida, 201301
                 </span>
               </li>
             </ul>

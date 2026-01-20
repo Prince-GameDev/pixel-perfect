@@ -241,14 +241,25 @@ const Contact = () => {
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <Mail className="w-5 h-5 text-primary" />
                     </div>
+                    
                     <div>
                       <h3 className="font-medium text-foreground mb-1">Email</h3>
+
+                      <div className="flex flex-col gap-1">
                       <a
                         href="mailto:info@iterac.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        info@iterac.com
+                        Business: info@iterac.com
                       </a>
+
+                      <a
+                        href="mailto:hr@iterac.com"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        Careers: hr@iterac.com
+                      </a>
+                      </div>
                     </div>
                   </div>
 
@@ -259,10 +270,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium text-foreground mb-1">Phone</h3>
                       <a
-                        href="tel:+15551234567"
+                        href="tel:+919811428989"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +1 (555) 123-4567
+                        +91 (98114) 28989
                       </a>
                     </div>
                   </div>
@@ -278,7 +289,7 @@ const Contact = () => {
                       <p className="text-muted-foreground">
                         Technology Hub, Innovation District
                         <br />
-                        San Francisco, CA 94102
+                        Noida, 201301
                       </p>
                     </div>
                   </div>

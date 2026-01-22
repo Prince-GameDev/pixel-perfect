@@ -92,7 +92,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-6">
               <Link
-                to="https://www.termsfeed.com/live/7ea68b72-f14d-4b14-9c2d-2eebbafda237"
+                to="/privacy-policy"
                 className="text-secondary-foreground/60 hover:text-accent text-sm transition-colors"
               >
                 Privacy Policy

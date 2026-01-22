@@ -6,7 +6,8 @@ export default function PrivacyPolicy() {
       <div
         className="
           w-full 
-          max-w-4xl 
+          max-w-6xl
+          mx-auto
           h-[calc(100vh-3px)]
           overflow-y-auto 
           px-6 

@@ -19,27 +19,16 @@ const HeroSection = () => {
 
       <div className="section-container relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            {["Innovating", "with"].map((word, i) => (
-              <motion.span
-                key={i}
-                initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                transition={{ duration: 0.6, delay: i * 0.15 }}
-                className="inline-block mr-[0.3em]"
-              >
-                {word}
-              </motion.span>
-            ))}
-            <motion.span
-              initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
-              animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
-              transition={{ duration: 0.8, delay: 0.4, type: "spring", stiffness: 100 }}
-              className="text-gradient-primary inline-block"
-            >
-              Technology
-            </motion.span>
-          </h1>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
+              Innovating with{" "}
+              <span className="text-gradient-primary">Technology</span>
+            </h1>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}

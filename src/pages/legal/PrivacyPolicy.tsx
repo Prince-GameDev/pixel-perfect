@@ -3,11 +3,12 @@ import React from "react";
 export default function PrivacyPolicy() 
 {
   return (
-           <div className="flex justify-center w-full">
-             <div className=" w-full max-w-6xl mx-auto h-[calc(100vh-3px)] overflow-y-auto px-6 py-10 border rounded-lg bg-white shadow-sm scroll-smooth">
-                {
-                  /* Privacy Policy Content */
-                  <div>
+    <div className="flex justify-center w-full">
+      <div
+        className=" w-full max-w-6xl mx-auto h-[calc(100vh-3px)] overflow-y-auto px-6 py-10 border rounded-lg bg-white shadow-sm scroll-smooth">
+        {
+            /* Privacy Policy Content */
+            <div>
 
                    <h1 className="text-3xl font-bold">Privacy Policy for ITERAC</h1>
                    <h2 className="text-2xl font-semibold mt-6">Privacy Policy</h2>
@@ -575,9 +576,9 @@ export default function PrivacyPolicy()
   Generated using TermsFeed Privacy Policy Generator
                   </p>
 
-                  </div>
-                }
-             </div>
-           </div>
+            </div>
+        }
+      </div>
+    </div>
          );
 }

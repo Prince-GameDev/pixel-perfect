@@ -4,21 +4,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="flex justify-center w-full">
       <div
-        className="
-          w-full 
-          max-w-6xl
-          mx-auto
-          h-[calc(100vh-3px)]
-          overflow-y-auto 
-          px-6 
-          py-10 
-          border 
-          rounded-lg 
-          bg-white 
-          shadow-sm 
-          scroll-smooth
-        "
-      >
+        className="w-full max-w-6xl mx-auto h-[calc(100vh-3px)] overflow-y-auto px-6 py-10 border rounded-lg bg-white shadow-sm scroll-smooth">
         {
             /* Privacy Policy Content */
             <div>
@@ -592,7 +578,7 @@ export default function PrivacyPolicy() {
 
         }
 
-         </div>
+        </div>
 
     </div>
 

@@ -1,60 +1,47 @@
 import React from "react";
 
-export default function PrivacyPolicy() {
+export default function PrivacyPolicy() 
+{
   return (
     <div className="flex justify-center w-full">
       <div
-        className="
-          w-full 
-          max-w-6xl
-          mx-auto
-          h-[calc(100vh-3px)]
-          overflow-y-auto 
-          px-6 
-          py-10 
-          border 
-          rounded-lg 
-          bg-white 
-          shadow-sm 
-          scroll-smooth
-        "
-      >
+        className=" w-full max-w-6xl mx-auto h-[calc(100vh-3px)] overflow-y-auto px-6 py-10 border rounded-lg bg-white shadow-sm scroll-smooth">
         {
             /* Privacy Policy Content */
             <div>
 
-<h1 className="text-3xl font-bold">Privacy Policy for ITERAC</h1>
-<h2 className="text-2xl font-semibold mt-6">Privacy Policy</h2>
+                   <h1 className="text-3xl font-bold">Privacy Policy for ITERAC</h1>
+                   <h2 className="text-2xl font-semibold mt-6">Privacy Policy</h2>
 
-<p className="mt-2">Last updated: January 20, 2026</p>
+                   <p className="mt-2">Last updated: January 20, 2026</p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
   information when You use the Service and tells You about Your privacy rights and how the law protects You.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   We use Your Personal Data to provide and improve the Service. By using the Service, You agree to the
   collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created
   with the help of the Privacy Policy Generator.
-</p>
+                   </p>
 
-<h2 className="text-2xl font-semibold mt-8">Interpretation and Definitions</h2>
+                   <h2 className="text-2xl font-semibold mt-8">Interpretation and Definitions</h2>
 
-<h3 className="text-xl font-semibold mt-4">Interpretation</h3>
+                   <h3 className="text-xl font-semibold mt-4">Interpretation</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   The words whose initial letters are capitalized have meanings defined under the following conditions. The
   following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-6">Definitions</h3>
+                  <h3 className="text-xl font-semibold mt-6">Definitions</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   For the purposes of this Privacy Policy:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 space-y-3">
+                   <ul className="list-disc ml-6 space-y-3">
 
   <li>
     <strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.
@@ -119,61 +106,61 @@ export default function PrivacyPolicy() {
     <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
   </li>
 
-</ul>
+                   </ul>
 
-<h2 className="text-2xl font-semibold mt-10">
+                   <h2 className="text-2xl font-semibold mt-10">
   Collecting and Using Your Personal Data
-</h2>
+                   </h2>
 
-<h3 className="text-xl font-semibold mt-6">Types of Data Collected</h3>
+                   <h3 className="text-xl font-semibold mt-6">Types of Data Collected</h3>
 
-<h4 className="font-semibold mt-4">Personal Data</h4>
+                   <h4 className="font-semibold mt-4">Personal Data</h4>
 
-<p className="mt-2">
+                   <p className="mt-2">
   While using Our Service, We may ask You to provide Us with certain personally identifiable information
   that can be used to contact or identify You. Personally identifiable information may include, but is not
   limited to:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-2 space-y-1">
+                   <ul className="list-disc ml-6 mt-2 space-y-1">
   <li>Email address</li>
   <li>First name and last name</li>
   <li>Phone number</li>
-</ul>
+                   </ul>
 
-<h4 className="font-semibold mt-6">Usage Data</h4>
+                   <h4 className="font-semibold mt-6">Usage Data</h4>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Usage Data is collected automatically when using the Service.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address),
   browser type, browser version, the pages of our Service that You visit, the time and date of Your visit,
   the time spent on those pages, unique device identifiers and other diagnostic data.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   When You access the Service by or through a mobile device, We may collect certain information automatically,
   including, but not limited to, the type of mobile device You use, Your mobile device's unique ID, the IP
   address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use,
   unique device identifiers and other diagnostic data.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   We may also collect information that Your browser sends whenever You visit Our Service or when You access
   the Service by or through a mobile device.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-8">Tracking Technologies and Cookies</h3>
+                   <h3 className="text-xl font-semibold mt-8">Tracking Technologies and Cookies</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   We use Cookies and similar tracking technologies to track the activity on Our Service and store certain
   information. Tracking technologies We use include beacons, tags, and scripts to collect and track information
   and to improve and analyze Our Service. The technologies We use may include:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-3 space-y-3">
+                   <ul className="list-disc ml-6 mt-3 space-y-3">
 
   <li>
     <strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct
@@ -188,25 +175,25 @@ export default function PrivacyPolicy() {
     website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
   </li>
 
-</ul>
+                   </ul>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or
   mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Where required by law, we use non-essential cookies (such as analytics, advertising, and remarketing cookies)
   only with Your consent. You can withdraw or change Your consent at any time using Our cookie preferences tool
   (if available) or through Your browser/device settings. Withdrawing consent does not affect the lawfulness of
   processing based on consent before its withdrawal.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   We use both Session and Persistent Cookies for the purposes set out below:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-4 space-y-6">
+                   <ul className="list-disc ml-6 mt-4 space-y-6">
 
   <li>
     <strong>Necessary / Essential Cookies</strong>
@@ -245,20 +232,20 @@ export default function PrivacyPolicy() {
     </div>
   </li>
 
-</ul>
+                   </ul>
 
-<p className="mt-4">
+                   <p className="mt-4">
   For more information about the cookies we use and your choices regarding cookies, please visit our Cookies
   Policy or the Cookies section of Our Privacy Policy.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Use of Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Use of Your Personal Data</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   The Company may use Personal Data for the following purposes:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-3 space-y-3">
+                   <ul className="list-disc ml-6 mt-3 space-y-3">
 
   <li>
     <strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.
@@ -305,13 +292,13 @@ export default function PrivacyPolicy() {
     identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and
     improve our Service, products, services, marketing and your experience.
   </li>
-</ul>
+                   </ul>
 
-<p className="mt-6">
+                   <p className="mt-6">
   We may share Your Personal Data in the following situations:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-3 space-y-3">
+                   <ul className="list-disc ml-6 mt-3 space-y-3">
 
   <li>
     <strong>With Service Providers:</strong> We may share Your Personal Data with Service Providers to monitor
@@ -347,26 +334,26 @@ export default function PrivacyPolicy() {
     consent.
   </li>
 
-</ul>
+                   </ul>
 
-<h3 className="text-xl font-semibold mt-10">Retention of Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Retention of Your Personal Data</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this
   Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal
   obligations (for example, if We are required to retain Your data to comply with applicable laws), resolve
   disputes, and enforce our legal agreements and policies.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Where possible, We apply shorter retention periods and/or reduce identifiability by deleting, aggregating,
   or anonymizing data. Unless otherwise stated, the retention periods below are maximum periods ("up to") and
   We may delete or anonymize data sooner when it is no longer needed for the relevant purpose. We apply
   different retention periods to different categories of Personal Data based on the purpose of processing and
   legal obligations:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-4 space-y-2">
+                   <ul className="list-disc ml-6 mt-4 space-y-2">
   
   <li>
     <strong>Account Information</strong>
@@ -415,33 +402,33 @@ export default function PrivacyPolicy() {
     </ul>
   </li>
 
-</ul>
+                   </ul>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Usage Data is retained in accordance with the retention periods described above, and may be retained longer
   only where necessary for security, fraud prevention, or legal compliance.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   We may retain Personal Data beyond the periods stated above for different reasons:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-2 space-y-2">
+                   <ul className="list-disc ml-6 mt-2 space-y-2">
   <li><strong>Legal obligation:</strong> We are required by law to retain specific data (e.g., financial records for tax authorities).</li>
   <li><strong>Legal claims:</strong> Data is necessary to establish, exercise, or defend legal claims.</li>
   <li><strong>Your explicit request:</strong> You ask Us to retain specific information.</li>
   <li><strong>Technical limitations:</strong> Data exists in backup systems that are scheduled for routine deletion.</li>
-</ul>
+                   </ul>
 
-<p className="mt-4">
+                   <p className="mt-4">
   You may request information about how long We will retain Your Personal Data by contacting Us.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   When retention periods expire, We securely delete or anonymize Personal Data according to the following procedures:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-2 space-y-2">
+                   <ul className="list-disc ml-6 mt-2 space-y-2">
   <li>
     <strong>Deletion:</strong> Personal Data is removed from Our systems and no longer actively processed.
   </li>
@@ -454,148 +441,144 @@ export default function PrivacyPolicy() {
     <strong>Anonymization:</strong> In some cases, We convert Personal Data into anonymous statistical data that cannot
     be linked back to You. This anonymized data may be retained indefinitely for research and analytics.
   </li>
-</ul>
+                   </ul>
 
-<h3 className="text-xl font-semibold mt-10">Transfer of Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Transfer of Your Personal Data</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Your information, including Personal Data, is processed at the Company's operating offices and in any other places
   where the parties involved in the processing are located. It means that this information may be transferred to —
   and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction
   where the data protection laws may differ from those from Your jurisdiction.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Where required by applicable law, We will ensure that international transfers of Your Personal Data are subject to
   appropriate safeguards and supplementary measures where appropriate. The Company will take all steps reasonably
   necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of
   Your Personal Data will take place to an organization or a country unless there are adequate controls in place
   including the security of Your data and other personal information.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Delete Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Delete Your Personal Data</h3>
 
-<p className="mt-2">
-  You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
-</p>
+                   <p className="mt-2">
+                     You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   Our Service may give You the ability to delete certain information about You from within the Service.
-</p>
+                   </p>
 
-<p className="mt-4">
+                   <p className="mt-4">
   You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and
   visiting the account settings section that allows you to manage Your personal information.
-</p>
+                   </p>
 
-<p className="mt-4">    
+                   <p className="mt-4">    
   Please note, however, that We may need to retain certain information when we have a legal obligation or lawful
   basis to do so.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Disclosure of Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Disclosure of Your Personal Data</h3>
 
-<h4 className="font-semibold mt-4">Business Transactions</h4>
+                   <h4 className="font-semibold mt-4">Business Transactions</h4>
 
-<p className="mt-2">
+                   <p className="mt-2">
   If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred.
   We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
-</p>
+                   </p>
 
-<h4 className="font-semibold mt-6">Law enforcement</h4>
+                   <h4 className="font-semibold mt-6">Law enforcement</h4>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do
   so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
-</p>
+                   </p>
 
-<h4 className="font-semibold mt-6">Other legal requirements</h4>
+                   <h4 className="font-semibold mt-6">Other legal requirements</h4>
 
-<p className="mt-2">
+                   <p className="mt-2">
   The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-3 space-y-1">
+                   <ul className="list-disc ml-6 mt-3 space-y-1">
   <li>Comply with a legal obligation</li>
   <li>Protect and defend the rights or property of the Company</li>
   <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
   <li>Protect the personal safety of Users of the Service or the public</li>
   <li>Protect against legal liability</li>
-</ul>
+                   </ul>
 
-<h3 className="text-xl font-semibold mt-10">Security of Your Personal Data</h3>
+                   <h3 className="text-xl font-semibold mt-10">Security of Your Personal Data</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   The security of Your Personal Data is important to Us, but remember that no method of transmission over the
   Internet, or method of electronic storage is 100% secure. While We strive to use commercially reasonable means
   to protect Your Personal Data, We cannot guarantee its absolute security.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Children&apos;s Privacy</h3>
+                   <h3 className="text-xl font-semibold mt-10">Children&apos;s Privacy</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Our Service does not address anyone under the age of 16. We do not knowingly collect personally identifiable
   information from anyone under the age of 16. If You are a parent or guardian and You are aware that Your child
   has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data
   from anyone under the age of 16 without verification of parental consent, We take steps to remove that
   information from Our servers.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   If We need to rely on consent as a legal basis for processing Your information and Your country requires consent
   from a parent, We may require Your parent&apos;s consent before We collect and use that information.
-</p>
-<h3 className="text-xl font-semibold mt-10">Links to Other Websites</h3>
+                   </p>
+                   
+                   <h3 className="text-xl font-semibold mt-10">Links to Other Websites</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   Our Service may contain links to other websites that are not operated by Us. If You click on a third party link,
   You will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of every site You visit.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   We have no control over and assume no responsibility for the content, privacy policies or practices of any third
   party sites or services.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Changes to this Privacy Policy</h3>
+                   <h3 className="text-xl font-semibold mt-10">Changes to this Privacy Policy</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy
   Policy on this page.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective
   and update the &quot;Last updated&quot; date at the top of this Privacy Policy.
-</p>
+                   </p>
 
-<p className="mt-2">
+                   <p className="mt-2">
   You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are
   effective when they are posted on this page.
-</p>
+                   </p>
 
-<h3 className="text-xl font-semibold mt-10">Contact Us</h3>
+                   <h3 className="text-xl font-semibold mt-10">Contact Us</h3>
 
-<p className="mt-2">
+                   <p className="mt-2">
   If you have any questions about this Privacy Policy, You can contact us:
-</p>
+                   </p>
 
-<ul className="list-disc ml-6 mt-2 space-y-1">
+                   <ul className="list-disc ml-6 mt-2 space-y-1">
   <li>By email: info@iterac.com</li>
-</ul>
+                   </ul>
 
-<p className="text-sm text-muted-foreground mt-10">
+                  <p className="text-sm text-muted-foreground mt-10">
   Generated using TermsFeed Privacy Policy Generator
-</p>
+                  </p>
 
             </div>
-
         }
-
-         </div>
-
+      </div>
     </div>
-
-  );
-
+         );
 }
